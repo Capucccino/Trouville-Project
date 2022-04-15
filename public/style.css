@@ -29,7 +29,7 @@ h2 {
 
 a {
     text-decoration: none;
-    color: black;
+    color: #1d4851;
 }
 /* **************************** NAVBAR *********************************** */
 nav {
@@ -97,6 +97,7 @@ h3{
 #Presentation {
     background-color: #fffae1;
     padding: 10px 0px 100px 0;    
+    color: #1d4851;
 }
 
 #Introduction{
@@ -119,41 +120,77 @@ h3{
 }
 
 .imagesPrestations img{
+    width:100%;
+    height:250px;
+    object-fit:cover;
+    object-position:50% 50%;
     border-radius: 10px;
     box-shadow: 5px 5px 3px 1px rgba(0,0,0,0.3);
 }
 
 .imagesPrestations img:hover {
     opacity: 0.5;
-    transform: scale(1.04);
+    transform: scale(1.03);
     transition: 0.3s ease-in-out;
 }
 
+/* ********************************* Nous trouver ************************** */
+
+#locaInfo {
+    margin-top: 100px;
+    text-align: left;
+    padding: 0px 10%;
+    color: #1d4851;
+    font-size: 1.5em;
+}
+
+
+#InterTrait{
+    height: 1px;
+    width: 75%;
+    margin: 80px auto;
+    background-color: #1d4851;
+}
+
+.imagesAppart img{
+    margin-left: 40px;
+    height:250px;
+    object-fit:cover;
+    object-position:50% 50%;
+    border-radius: 5px;
+}
 /* ******************************* TOURISME **************************** */
 
 #tourisme {
     height: 1400px;
-    background-color: #f1f2f6;
     padding: 1px 2px;
 }
 
 #tourisme h2{
-    padding-top: 60px;
+    padding-top: 0px;
 }
+
 
 #plage{
     background: url(img/planches.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
-#deauville{
-    background: url(img/planches.jpg);
+
+#bac{
+    background: url(img/Le-bac-de-Trouville-Deauville-1140X616.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
-#marche{
-    background: url(img/planches.jpg);
+#casino{
+    background: url(img/casino.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 #tourisme li {
     margin: 65px 100px 0 100px;
-    height: 226px;
+    height: 350px;
     width: 55%;
     max-width: 550px;
     float: left;
@@ -172,11 +209,11 @@ h3{
     box-shadow: 4px 4px 0 1px rgb(0, 0, 0);
 }
 
-#tourisme #deauville{
+#bacj{
     float:right;
 }
 
-#deauville p{
+#bajc p{
     float: left;
     background-color: #8d7268;
     margin-left: -180px;
@@ -188,6 +225,7 @@ h3{
 
 
 footer{
+    margin-top: 300px;
     background-color: #524a3a;
     color: #fffae1;
     padding: 20px 0 10px 0;
